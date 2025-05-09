@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+* {
+padding:0;
+margin:0;
+vertical-align:baseline;
+list-style:none;
+border:0
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f9f7;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #004080;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+form {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form > div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#graficoDenuncias {
+    max-width: 900px;
+    margin: 40px auto;
+    display: block;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tabela-denuncias {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabela-denuncias th, .tabela-denuncias td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabela-denuncias th {
+    background-color: #111;
+    color: white;
+}
+
+.tabela-denuncias td {
+    background-color: #fafafa;
+}
